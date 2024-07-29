@@ -75,3 +75,4 @@ class TestBooksCollector:
         collector.add_new_book(book_name)
         collector.set_book_genre(book_name, genre)
         assert collector.get_book_genre(book_name) == expected_result
+
